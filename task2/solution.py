@@ -1,9 +1,8 @@
 import csv
-import requests
-
 from urllib.parse import unquote
-from bs4 import BeautifulSoup, element
 
+import requests
+from bs4 import BeautifulSoup, element
 
 RUSSIAN_ALPHABET = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
 NEXT_LINK_SCV = "task2/next_link.csv"

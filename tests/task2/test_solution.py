@@ -1,8 +1,8 @@
 import csv
 import os
 
-import requests
 import pytest
+import requests
 from bs4 import BeautifulSoup, element
 from requests.exceptions import MissingSchema
 
@@ -20,7 +20,7 @@ from task2.solution import (
     save_beasts,
     save_next_link_to_file,
 )
-from tests.conftest import ANIMALS, TEST_FILE, START_URL
+from tests.task2.conftest import ANIMALS, START_URL, TEST_FILE
 
 
 def test_get_link_to_current_page_from_csv_no_previous_link(tear_down):
