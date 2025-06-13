@@ -1,4 +1,5 @@
 import os
+
 import pytest
 
 START_URL = "https://ru.wikipedia.org/wiki/Категория:Животные_по_алфавиту"
