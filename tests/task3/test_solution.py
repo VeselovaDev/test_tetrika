@@ -1,8 +1,5 @@
-from task3.solution import (
-    break_interval_into_seconds,
-    calculate_attendance,
-    make_timeline,
-)
+from task3.solution import (break_interval_into_seconds, calculate_attendance,
+                            make_timeline)
 
 # I changed test cases results from the task, see line 4 in solution.py
 
